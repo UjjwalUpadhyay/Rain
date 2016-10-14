@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular Rain</title>
+    <!--styles -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body ng-app="rainApp" ng-controller="rainController">
+  <section class="rain">
+  </section>
+  <button ng-style="{'width': '100px', 'height': '100px'}" ng-click="createRain()">Start Rain!</button>
+  <button ng-style="{'width': '100px', 'height': '100px'}" ng-click="stopRain()">Stop Rain!</button>
+</body>
+<script type="text/javascript" src="lib/angular.min.js"></script>
+<script type="text/javascript" src="rainController.js"></script>
+</html>
